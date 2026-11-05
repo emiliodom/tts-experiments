@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>French TTS voice assessment</title>
+<style>
+  body { font-family: -apple-system, system-ui, sans-serif; max-width: 1100px; margin: 24px auto; padding: 0 16px; color: #222; }
+  h1 { margin-bottom: 4px; }
+  .sub { color: #666; margin-bottom: 16px; }
+  .text { background: #f3f5f8; padding: 10px 14px; border-radius: 8px; font-size: 1.05em; }
+  table { border-collapse: collapse; width: 100%; margin-top: 16px; }
+  th, td { border-bottom: 1px solid #e3e3e3; padding: 8px 6px; text-align: left; vertical-align: middle; }
+  th { background: #fafafa; position: sticky; top: 0; font-size: .85em; }
+  td.model { font-weight: 600; }
+  td.num { font-variant-numeric: tabular-nums; white-space: nowrap; }
+  audio { width: 260px; height: 34px; }
+  select { padding: 2px; }
+  input.note { width: 100%; min-width: 140px; }
+  .tag { font-size: .75em; padding: 1px 6px; border-radius: 10px; color: #fff; }
+  .qwen { background: #6b5bd6; } .cosy { background: #d6783a; } .melo { background: #2f9e6e; }
+  .row-best { background: #fff8e1; }
+  button { padding: 6px 12px; margin-right: 8px; cursor: pointer; }
+  h2 { margin-top: 32px; }
+</style>
+</head>
+<body>
+<h1>French TTS voice assessment</h1>
+<div class="sub">All voices say the same sentence. Rate each one (1 = bad, 5 = native-like). Ratings are saved in this browser.</div>
+<div class="text" id="text"></div>
+
+<table id="main">
+  <thead><tr>
+    <th>Model / voice</th><th>Audio</th><th>Dur (s)</th><th>Gen (s)</th><th>RTF</th>
+    <th>Naturalness</th><th>Liaisons</th><th>Accent</th><th>Notes</th><th>Total</th>
+  </tr></thead>
+  <tbody></tbody>
+</table>
+
+<p>
+  <button id="export">Export ratings (JSON)</button>
+  <button id="reset">Clear ratings</button>
+  <span class="sub">RTF = generation time / audio length (lower is faster; &lt; 1 is faster than real time). Qwen on MPS, MeloTTS and CosyVoice2-EU on CPU, 16 GB MacBook.</span>
+</p>
+
+<h2>CosyVoice2-EU extra phrases (liaisons, enchainements, native, tongue twister)</h2>
+<table id="extra">
+  <thead><tr><th>Phrase</th><th>Text</th><th>Audio</th></tr></thead>
+  <tbody></tbody>
+</table>
+
+<script>
+const TEXT = "Bonjour, je suis un ami des enfants. Les enfants ont acheté des petits oiseaux, et nous allons en Amérique cet été. Un grand homme est arrivé tout à coup.";
+document.getElementById('text').textContent = TEXT;
+
+// [family, label, file, dur, gen]
+const VOICES = [
+  ['melo', 'MeloTTS FR',               'melotts/fr.wav', 8.51, 5.28],
+  ['cosy', 'CosyVoice2-EU (sample prompt voice)', 'cosyvoice2_eu/final_shared.wav', 9.52, 85.08],
+  ['qwen', 'Qwen3-TTS aiden',    'qwen3/aiden.wav',    9.12, 29.53],
+  ['qwen', 'Qwen3-TTS dylan',    'qwen3/dylan.wav',    9.44, 25.52],
+  ['qwen', 'Qwen3-TTS eric',     'qwen3/eric.wav',    10.88, 28.21],
+  ['qwen', 'Qwen3-TTS ono_anna', 'qwen3/ono_anna.wav',10.88, 29.62],
+  ['qwen', 'Qwen3-TTS ryan',     'qwen3/ryan.wav',     9.36, 23.95],
+  ['qwen', 'Qwen3-TTS serena',   'qwen3/serena.wav',  10.48, 27.86],
+  ['qwen', 'Qwen3-TTS sohee',    'qwen3/sohee.wav',    8.96, 23.59],
+  ['qwen', 'Qwen3-TTS uncle_fu', 'qwen3/uncle_fu.wav', 7.68, 20.90],
+  ['qwen', 'Qwen3-TTS vivian',   'qwen3/vivian.wav',  10.96, 28.03],
+];
+const CRITERIA = ['natural', 'liaisons', 'accent'];
+const KEY = 'french-tts-ratings-v1';
+let store = JSON.parse(localStorage.getItem(KEY) || '{}');
+const save = () => localStorage.setItem(KEY, JSON.stringify(store));
+
+function total(id) {
+  const r = store[id] || {};
+  const v = CRITERIA.map(c => +r[c]).filter(x => x > 0);
+  return v.length === CRITERIA.length ? v.reduce((a, b) => a + b, 0) : null;
+}
+
+function render() {
+  const tb = document.querySelector('#main tbody');
+  tb.innerHTML = '';
+  const totals = VOICES.map(v => total(v[2])).filter(t => t !== null);
+  const best = totals.length ? Math.max(...totals) : null;
+  for (const [fam, label, file, dur, gen] of VOICES) {
+    const r = store[file] || {};
+    const tr = document.createElement('tr');
+    const t = total(file);
+    if (t !== null && t === best) tr.className = 'row-best';
+    const sel = c => `<select data-id="${file}" data-c="${c}"><option value="">-</option>` +
+      [1,2,3,4,5].map(n => `<option ${+r[c] === n ? 'selected' : ''}>${n}</option>`).join('') + '</select>';
+    tr.innerHTML =
+      `<td class="model"><span class="tag ${fam}">${fam}</span> ${label}</td>` +
+      `<td><audio controls preload="none" src="${file}"></audio></td>` +
+      `<td class="num">${dur.toFixed(1)}</td><td class="num">${gen.toFixed(1)}</td><td class="num">${(gen/dur).toFixed(2)}</td>` +
+      CRITERIA.map(c => `<td>${sel(c)}</td>`).join('') +
+      `<td><input class="note" data-id="${file}" data-c="note" value="${(r.note || '').replace(/"/g, '&quot;')}"></td>` +
+      `<td class="num">${t === null ? '' : t + '/15'}</td>`;
+    tb.appendChild(tr);
+  }
+}
+
+document.querySelector('#main').addEventListener('change', e => {
+  const el = e.target, id = el.dataset.id;
+  if (!id) return;
+  (store[id] = store[id] || {})[el.dataset.c] = el.value;
+  save(); render();
+});
+
+// pause other players when one starts
+document.addEventListener('play', e => {
+  document.querySelectorAll('audio').forEach(a => { if (a !== e.target) a.pause(); });
+}, true);
+
+document.getElementById('export').onclick = () => {
+  const out = VOICES.map(([fam, label, file, dur, gen]) => ({ family: fam, voice: label, file, rtf: +(gen/dur).toFixed(2), ...(store[file] || {}), total: total(file) }));
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(new Blob([JSON.stringify(out, null, 2)], { type: 'application/json' }));
+  a.download = 'french_tts_ratings.json';
+  a.click();
+};
+document.getElementById('reset').onclick = () => { if (confirm('Clear all ratings?')) { store = {}; save(); render(); } };
+
+const EXTRA = [
+  ['liaisons', "Les enfants ont acheté des petits oiseaux et ils en ont pris un autre à Paris. Nous allons en Amérique, vous avez eu un ami en été."],
+  ['enchainements', "Un grand homme est arrivé tout à coup, et il est allé chez elle avec ses amis italiens."],
+  ['native', "Je voudrais un croissant, une baguette et un verre de vin rouge, s'il vous plaît. Quel beau pays que la France !"],
+  ['tongue_twister', "Les chaussettes de l'archiduchesse sont-elles sèches, archi-sèches ? Un chasseur sachant chasser sait chasser sans son chien."],
+];
+const eb = document.querySelector('#extra tbody');
+for (const [name, text] of EXTRA) {
+  const tr = document.createElement('tr');
+  tr.innerHTML = `<td class="model">${name}</td><td>${text}</td><td><audio controls preload="none" src="cosyvoice2_eu/final_${name}.wav"></audio></td>`;
+  eb.appendChild(tr);
+}
+render();
+</script>
+</body>
+</html>
