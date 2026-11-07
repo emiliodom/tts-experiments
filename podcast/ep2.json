@@ -1,0 +1,28 @@
+{
+  "id": "ep2",
+  "title": "Épisode 2 – La France, championne de l'électricité : faits surprenants et prix dans le monde",
+  "level": "B2",
+  "language": "French",
+  "cast": {"Aiden": "aiden", "Eric": "eric", "Serena": "serena"},
+  "turns": [
+    ["Aiden", "Bonjour et bienvenue dans « Sous tension ». Aujourd'hui, nous partons en France, avec mes deux collègues, Eric et Serena."],
+    ["Eric", "Bonjour Aiden, bonjour Serena. La France a une particularité : elle produit environ soixante-dix pour cent de son électricité grâce au nucléaire. C'est l'une des parts les plus élevées du monde."],
+    ["Serena", "Tout a commencé dans les années soixante-dix, après le choc pétrolier. Le gouvernement a décidé de construire massivement des centrales, pour ne plus dépendre du pétrole importé. Résultat : le pays compte aujourd'hui cinquante-sept réacteurs."],
+    ["Aiden", "Parlons de faits un peu fous. Premier exemple : en hiver, la consommation française est extrêmement sensible à la météo. Quand la température baisse d'un seul degré, la demande augmente d'environ deux mille cinq cents mégawatts."],
+    ["Eric", "C'est parce que beaucoup de Français se chauffent à l'électricité. Pour gérer ces pics, le réseau a même inventé un système d'alerte, « Ecowatt », qui fonctionne un peu comme une météo de l'électricité."],
+    ["Serena", "Autre habitude très française : le chauffe-eau qui se déclenche la nuit. Pendant des décennies, un signal envoyé par le réseau déclenchait les chauffe-eau à l'heure creuse, quand le courant coûte moins cher."],
+    ["Aiden", "Et il y a le tarif Tempo, avec ses jours rouges. Les jours de grand froid, l'électricité devient très chère pendant la journée, et les clients sont prévenus la veille. Certains ménages décalent alors leur lessive ou leur cuisine."],
+    ["Eric", "Dernier exemple de fait curieux : l'usine marémotrice de la Rance, en Bretagne. Elle utilise la force des marées, elle fonctionne depuis mille neuf cent soixante-six, et elle reste l'une des plus grandes du monde."],
+    ["Serena", "Sans oublier le chantier de Flamanville. Ce réacteur devait être prêt en deux mille douze pour environ trois milliards d'euros. Il a finalement été raccordé au réseau en décembre deux mille vingt-quatre, et le coût a dépassé treize milliards."],
+    ["Aiden", "Il y a aussi un épisode marquant : l'hiver deux mille vingt-deux. À cause de problèmes de corrosion, près de la moitié des réacteurs étaient à l'arrêt, et la France, d'ordinaire exportatrice, a dû importer de l'électricité."],
+    ["Eric", "Depuis, la situation s'est redressée. En deux mille vingt-quatre, la France a même battu un record d'exportations, avec près de quatre-vingt-dix térawattheures vendus à ses voisins."],
+    ["Serena", "Et les prix, justement ? En France, un ménage paie environ vingt-cinq centimes d'euro le kilowattheure, un tarif en partie encadré par l'État. C'est nettement moins qu'en Allemagne, où l'on dépasse souvent trente-cinq centimes."],
+    ["Aiden", "Aux États-Unis, le prix tourne autour de seize ou dix-sept cents le kilowattheure, soit un peu moins de quinze centimes d'euro. En Chine ou en Inde, il est encore plus bas, souvent inférieur à dix centimes."],
+    ["Eric", "Mais les records de prix bas se trouvent ailleurs. Dans certains pays producteurs de pétrole ou de gaz, comme l'Iran ou la Libye, l'électricité est subventionnée au point de coûter presque rien, un ou deux centimes."],
+    ["Serena", "À l'inverse, les îles et les pays très dépendants des importations paient cher. Et les écarts sont énormes : le même kilowattheure peut coûter jusqu'à trente fois plus cher d'un pays à l'autre."],
+    ["Aiden", "Ce qu'il faut retenir : le prix de l'électricité dépend du mode de production, des taxes, des subventions, et des choix politiques de chaque pays. Ce n'est jamais uniquement une question technique."],
+    ["Eric", "Dans notre dernier épisode, nous irons en Chine et à Dubaï, pour découvrir des projets vraiment gigantesques."],
+    ["Serena", "Merci de nous avoir écoutés, et à bientôt !"],
+    ["Aiden", "Au revoir !"]
+  ]
+}

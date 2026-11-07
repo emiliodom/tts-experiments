@@ -1,0 +1,25 @@
+{
+  "id": "ep3",
+  "title": "Épisode 3 – Des projets géants : la Chine, Dubaï et la course à l'énergie",
+  "level": "B2",
+  "language": "French",
+  "cast": {"Vivian": "vivian", "Anna": "ono_anna", "Ryan": "ryan"},
+  "turns": [
+    ["Vivian", "Bonjour et bienvenue dans le dernier épisode de « Sous tension ». Je suis Vivian, avec Anna et Ryan, et aujourd'hui, place aux projets gigantesques."],
+    ["Anna", "Bonjour Vivian, bonjour Ryan. Commençons par la Chine, qui fait souvent les choses en grand. Le barrage des Trois-Gorges, sur le Yangzi, est la plus grande centrale hydroélectrique du monde, avec une puissance de vingt-deux gigawatts."],
+    ["Ryan", "Pour se faire une idée, c'est l'équivalent de plus de vingt réacteurs nucléaires. Mais ce n'est plus le seul géant : le barrage de Baihetan, mis en service en deux mille vingt-deux, dépasse seize gigawatts."],
+    ["Vivian", "Le problème, c'est que ces barrages se trouvent dans l'ouest du pays, alors que les grandes villes sont sur la côte, à des milliers de kilomètres. La Chine a donc dû inventer des lignes à ultra haute tension."],
+    ["Anna", "L'une d'elles relie le Xinjiang à l'Anhui sur plus de trois mille kilomètres, avec une tension de onze cent mille volts. C'est la plus puissante au monde, et elle transporte l'électricité presque sans perte."],
+    ["Ryan", "La Chine est aussi devenue, de loin, le premier pays pour le solaire et l'éolien. Elle possède plus de la moitié des capacités solaires de la planète, avec de gigantesques parcs installés dans les déserts."],
+    ["Vivian", "Parfois, ces parcs sont énormes au point d'être visibles depuis l'espace. Et pourtant, la Chine continue aussi de construire des centrales à charbon, ce qui montre à quel point sa demande reste considérable."],
+    ["Anna", "Passons maintenant au Moyen-Orient. À Dubaï, le parc solaire Mohammed ben Rached Al Maktoum est l'un des plus grands du monde sur un seul site. L'objectif est d'atteindre cinq gigawatts d'ici deux mille trente."],
+    ["Ryan", "Et pas très loin, à Abou Dabi, la centrale nucléaire de Barakah, avec ses quatre réacteurs, a été la première du monde arabe. Elle fournit environ un quart de l'électricité du pays."],
+    ["Vivian", "Pourquoi ces pays investissent-ils autant ? D'abord parce que la climatisation consomme énormément, avec des étés qui dépassent quarante-cinq degrés. Ensuite parce qu'ils veulent préparer l'après-pétrole."],
+    ["Anna", "Il faut dire aussi que ces régions reçoivent un soleil exceptionnel. Le prix de l'électricité solaire y est parmi les plus bas jamais enregistrés, à moins de deux cents le kilowattheure dans certains appels d'offres."],
+    ["Ryan", "Et dans les prochaines années, les défis seront les mêmes partout : stocker l'énergie quand le soleil et le vent faiblissent, et moderniser les réseaux pour supporter la demande croissante."],
+    ["Vivian", "Pour conclure cette série : l'électricité est invisible, mais elle fait tourner le monde. Certains en ont trop, d'autres pas assez, et les projets d'aujourd'hui décideront de la manière dont nous vivrons demain."],
+    ["Anna", "Merci de nous avoir suivis tout au long de ces trois épisodes."],
+    ["Ryan", "À bientôt, et n'oubliez pas : l'énergie la moins chère reste celle qu'on ne consomme pas !"],
+    ["Vivian", "Au revoir !"]
+  ]
+}

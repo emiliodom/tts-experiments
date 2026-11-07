@@ -1,0 +1,152 @@
+{
+ "id": "ep3",
+ "title": "Épisode 3 – Des projets géants : la Chine, Dubaï et la course à l'énergie",
+ "sample_rate": 24000,
+ "total_s": 187.0,
+ "turns": [
+  {
+   "i": 0,
+   "speaker": "Vivian",
+   "voice": "vivian",
+   "text": "Bonjour et bienvenue dans le dernier épisode de « Sous tension ». Je suis Vivian, avec Anna et Ryan, et aujourd'hui, place aux projets gigantesques.",
+   "start": 0.0,
+   "duration": 12.32,
+   "gen_s": 31.3
+  },
+  {
+   "i": 1,
+   "speaker": "Anna",
+   "voice": "ono_anna",
+   "text": "Bonjour Vivian, bonjour Ryan. Commençons par la Chine, qui fait souvent les choses en grand. Le barrage des Trois-Gorges, sur le Yangzi, est la plus grande centrale hydroélectrique du monde, avec une puissance de vingt-deux gigawatts.",
+   "start": 12.77,
+   "duration": 16.32,
+   "gen_s": 35.0
+  },
+  {
+   "i": 2,
+   "speaker": "Ryan",
+   "voice": "ryan",
+   "text": "Pour se faire une idée, c'est l'équivalent de plus de vingt réacteurs nucléaires. Mais ce n'est plus le seul géant : le barrage de Baihetan, mis en service en deux mille vingt-deux, dépasse seize gigawatts.",
+   "start": 29.54,
+   "duration": 11.28,
+   "gen_s": 23.9
+  },
+  {
+   "i": 3,
+   "speaker": "Vivian",
+   "voice": "vivian",
+   "text": "Le problème, c'est que ces barrages se trouvent dans l'ouest du pays, alors que les grandes villes sont sur la côte, à des milliers de kilomètres. La Chine a donc dû inventer des lignes à ultra haute tension.",
+   "start": 41.27,
+   "duration": 12.96,
+   "gen_s": 28.3
+  },
+  {
+   "i": 4,
+   "speaker": "Anna",
+   "voice": "ono_anna",
+   "text": "L'une d'elles relie le Xinjiang à l'Anhui sur plus de trois mille kilomètres, avec une tension de onze cent mille volts. C'est la plus puissante au monde, et elle transporte l'électricité presque sans perte.",
+   "start": 54.68,
+   "duration": 11.84,
+   "gen_s": 25.4
+  },
+  {
+   "i": 5,
+   "speaker": "Ryan",
+   "voice": "ryan",
+   "text": "La Chine est aussi devenue, de loin, le premier pays pour le solaire et l'éolien. Elle possède plus de la moitié des capacités solaires de la planète, avec de gigantesques parcs installés dans les déserts.",
+   "start": 66.97,
+   "duration": 14.48,
+   "gen_s": 31.0
+  },
+  {
+   "i": 6,
+   "speaker": "Vivian",
+   "voice": "vivian",
+   "text": "Parfois, ces parcs sont énormes au point d'être visibles depuis l'espace. Et pourtant, la Chine continue aussi de construire des centrales à charbon, ce qui montre à quel point sa demande reste considérable.",
+   "start": 81.9,
+   "duration": 14.24,
+   "gen_s": 30.4
+  },
+  {
+   "i": 7,
+   "speaker": "Anna",
+   "voice": "ono_anna",
+   "text": "Passons maintenant au Moyen-Orient. À Dubaï, le parc solaire Mohammed ben Rached Al Maktoum est l'un des plus grands du monde sur un seul site. L'objectif est d'atteindre cinq gigawatts d'ici deux mille trente.",
+   "start": 96.59,
+   "duration": 11.12,
+   "gen_s": 23.9
+  },
+  {
+   "i": 8,
+   "speaker": "Ryan",
+   "voice": "ryan",
+   "text": "Et pas très loin, à Abou Dabi, la centrale nucléaire de Barakah, avec ses quatre réacteurs, a été la première du monde arabe. Elle fournit environ un quart de l'électricité du pays.",
+   "start": 108.16,
+   "duration": 12.24,
+   "gen_s": 26.1
+  },
+  {
+   "i": 9,
+   "speaker": "Vivian",
+   "voice": "vivian",
+   "text": "Pourquoi ces pays investissent-ils autant ? D'abord parce que la climatisation consomme énormément, avec des étés qui dépassent quarante-cinq degrés. Ensuite parce qu'ils veulent préparer l'après-pétrole.",
+   "start": 120.85,
+   "duration": 13.6,
+   "gen_s": 29.4
+  },
+  {
+   "i": 10,
+   "speaker": "Anna",
+   "voice": "ono_anna",
+   "text": "Il faut dire aussi que ces régions reçoivent un soleil exceptionnel. Le prix de l'électricité solaire y est parmi les plus bas jamais enregistrés, à moins de deux cents le kilowattheure dans certains appels d'offres.",
+   "start": 134.9,
+   "duration": 12.48,
+   "gen_s": 26.7
+  },
+  {
+   "i": 11,
+   "speaker": "Ryan",
+   "voice": "ryan",
+   "text": "Et dans les prochaines années, les défis seront les mêmes partout : stocker l'énergie quand le soleil et le vent faiblissent, et moderniser les réseaux pour supporter la demande croissante.",
+   "start": 147.83,
+   "duration": 11.44,
+   "gen_s": 26.0
+  },
+  {
+   "i": 12,
+   "speaker": "Vivian",
+   "voice": "vivian",
+   "text": "Pour conclure cette série : l'électricité est invisible, mais elle fait tourner le monde. Certains en ont trop, d'autres pas assez, et les projets d'aujourd'hui décideront de la manière dont nous vivrons demain.",
+   "start": 159.72,
+   "duration": 15.12,
+   "gen_s": 33.2
+  },
+  {
+   "i": 13,
+   "speaker": "Anna",
+   "voice": "ono_anna",
+   "text": "Merci de nous avoir suivis tout au long de ces trois épisodes.",
+   "start": 175.29,
+   "duration": 4.16,
+   "gen_s": 9.1
+  },
+  {
+   "i": 14,
+   "speaker": "Ryan",
+   "voice": "ryan",
+   "text": "À bientôt, et n'oubliez pas : l'énergie la moins chère reste celle qu'on ne consomme pas !",
+   "start": 179.9,
+   "duration": 5.2,
+   "gen_s": 11.3
+  },
+  {
+   "i": 15,
+   "speaker": "Vivian",
+   "voice": "vivian",
+   "text": "Au revoir !",
+   "start": 185.55,
+   "duration": 0.96,
+   "gen_s": 3.1
+  }
+ ]
+}

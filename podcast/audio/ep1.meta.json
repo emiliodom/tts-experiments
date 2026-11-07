@@ -1,0 +1,179 @@
+{
+ "id": "ep1",
+ "title": "Épisode 1 – Un monde sous tension : vivre avec ou sans électricité",
+ "sample_rate": 24000,
+ "total_s": 241.9,
+ "turns": [
+  {
+   "i": 0,
+   "speaker": "Ryan",
+   "voice": "ryan",
+   "text": "Bonjour à tous et bienvenue dans « Sous tension », le podcast qui décortique l'électricité. Je suis Ryan, et aujourd'hui je suis entouré de Dylan et de Sohee.",
+   "start": 0.0,
+   "duration": 12.32,
+   "gen_s": 26.7
+  },
+  {
+   "i": 1,
+   "speaker": "Dylan",
+   "voice": "dylan",
+   "text": "Bonjour Ryan, bonjour Sohee. Je te propose de commencer par une petite expérience : imagine que le courant soit coupé pendant une semaine entière, partout, dans ta ville.",
+   "start": 12.77,
+   "duration": 11.04,
+   "gen_s": 23.5
+  },
+  {
+   "i": 2,
+   "speaker": "Sohee",
+   "voice": "sohee",
+   "text": "Ce serait le chaos, tout simplement. Dès les premières heures, les feux de circulation s'éteignent, les ascenseurs s'arrêtent, et les téléphones se vident. Au bout de quelques heures, les antennes relais n'ont plus de batterie non plus.",
+   "start": 24.26,
+   "duration": 14.4,
+   "gen_s": 30.6
+  },
+  {
+   "i": 3,
+   "speaker": "Ryan",
+   "voice": "ryan",
+   "text": "Et ce n'est que le début. Les pompes à eau ne fonctionnent plus, donc plus d'eau au robinet. Les stations-service ne peuvent plus distribuer d'essence, et les distributeurs de billets sont hors service.",
+   "start": 39.11,
+   "duration": 11.36,
+   "gen_s": 24.7
+  },
+  {
+   "i": 4,
+   "speaker": "Dylan",
+   "voice": "dylan",
+   "text": "Sans oublier les hôpitaux. Ils disposent de groupes électrogènes, certes, mais le carburant ne dure que quelques jours. Et même les supermarchés ne tiendraient pas longtemps, parce que leurs réfrigérateurs seraient en panne.",
+   "start": 50.92,
+   "duration": 12.56,
+   "gen_s": 26.8
+  },
+  {
+   "i": 5,
+   "speaker": "Sohee",
+   "voice": "sohee",
+   "text": "Aujourd'hui, la planète consomme environ vingt-neuf mille térawattheures par an. C'est énorme, et ce chiffre augmente chaque année avec les voitures électriques, les climatiseurs et les centres de données.",
+   "start": 63.93,
+   "duration": 12.4,
+   "gen_s": 26.3
+  },
+  {
+   "i": 6,
+   "speaker": "Ryan",
+   "voice": "ryan",
+   "text": "Pourtant, voici un paradoxe : malgré tout cela, environ sept cents millions de personnes vivent encore sans aucun accès à l'électricité. C'est près d'un habitant de la planète sur onze.",
+   "start": 76.78,
+   "duration": 13.68,
+   "gen_s": 29.0
+  },
+  {
+   "i": 7,
+   "speaker": "Dylan",
+   "voice": "dylan",
+   "text": "Et la grande majorité se trouve en Afrique subsaharienne. Dans certains pays, moins d'une personne sur deux a l'électricité chez elle, et dans les villages isolés, c'est encore plus rare.",
+   "start": 90.91,
+   "duration": 10.48,
+   "gen_s": 22.7
+  },
+  {
+   "i": 8,
+   "speaker": "Sohee",
+   "voice": "sohee",
+   "text": "Alors comment font-ils, concrètement ? Pour cuisiner, ils utilisent du bois, du charbon de bois ou des excréments d'animaux séchés. Le problème, c'est que la fumée provoque des maladies respiratoires, surtout chez les femmes et les enfants.",
+   "start": 101.84,
+   "duration": 18.96,
+   "gen_s": 41.0
+  },
+  {
+   "i": 9,
+   "speaker": "Ryan",
+   "voice": "ryan",
+   "text": "Pour s'éclairer, beaucoup utilisent encore des lampes à pétrole, qui sont chères, dangereuses et polluantes. Mais la situation est en train de changer, grâce à une technologie très simple : le petit panneau solaire.",
+   "start": 121.25,
+   "duration": 13.36,
+   "gen_s": 29.4
+  },
+  {
+   "i": 10,
+   "speaker": "Dylan",
+   "voice": "dylan",
+   "text": "Exactement. Au Kenya, par exemple, des entreprises vendent des kits solaires que l'on paie par téléphone, en petites mensualités. Ça permet d'allumer des lampes, de charger un portable et même de brancher une petite radio.",
+   "start": 135.06,
+   "duration": 16.16,
+   "gen_s": 35.4
+  },
+  {
+   "i": 11,
+   "speaker": "Sohee",
+   "voice": "sohee",
+   "text": "Il y a aussi les mini-réseaux de village : quelques panneaux, des batteries, et tout un quartier est alimenté. Du coup, certains villages passent directement à l'énergie solaire, sans jamais avoir connu de grand réseau électrique.",
+   "start": 151.67,
+   "duration": 13.12,
+   "gen_s": 28.3
+  },
+  {
+   "i": 12,
+   "speaker": "Ryan",
+   "voice": "ryan",
+   "text": "Et les gens ont développé des astuces étonnantes. Dans beaucoup de régions, le téléphone se recharge chez un commerçant qui possède un panneau solaire, pour une toute petite somme. C'est devenu un vrai métier.",
+   "start": 165.24,
+   "duration": 15.52,
+   "gen_s": 33.0
+  },
+  {
+   "i": 13,
+   "speaker": "Dylan",
+   "voice": "dylan",
+   "text": "Un autre cas intéressant : des communautés qui vivent volontairement avec très peu d'électricité, comme certaines communautés amish aux États-Unis. Elles utilisent des batteries et de l'air comprimé, plutôt que le réseau public.",
+   "start": 181.21,
+   "duration": 12.96,
+   "gen_s": 28.4
+  },
+  {
+   "i": 14,
+   "speaker": "Sohee",
+   "voice": "sohee",
+   "text": "Ce qui montre bien que l'électricité n'est pas seulement une commodité. Elle conditionne l'école, la santé, l'économie. Un enfant qui ne peut pas faire ses devoirs le soir, faute de lumière, part avec un handicap.",
+   "start": 194.62,
+   "duration": 14.0,
+   "gen_s": 30.1
+  },
+  {
+   "i": 15,
+   "speaker": "Ryan",
+   "voice": "ryan",
+   "text": "Après cette première partie, retenons trois idées. Un : notre vie moderne dépend entièrement du courant. Deux : environ sept cents millions de personnes s'en passent encore. Trois : le solaire change la donne.",
+   "start": 209.07,
+   "duration": 13.6,
+   "gen_s": 29.3
+  },
+  {
+   "i": 16,
+   "speaker": "Dylan",
+   "voice": "dylan",
+   "text": "Dans le prochain épisode, nous allons parler de la France, un pays qui a fait de l'électricité une véritable spécialité, avec quelques faits assez surprenants.",
+   "start": 223.12,
+   "duration": 9.2,
+   "gen_s": 19.8
+  },
+  {
+   "i": 17,
+   "speaker": "Sohee",
+   "voice": "sohee",
+   "text": "Merci d'avoir écouté, et à très bientôt. N'oubliez pas d'éteindre la lumière en sortant de la pièce !",
+   "start": 232.77,
+   "duration": 6.08,
+   "gen_s": 13.2
+  },
+  {
+   "i": 18,
+   "speaker": "Ryan",
+   "voice": "ryan",
+   "text": "Au revoir à tous !",
+   "start": 239.3,
+   "duration": 2.16,
+   "gen_s": 5.2
+  }
+ ]
+}

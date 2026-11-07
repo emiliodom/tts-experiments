@@ -1,0 +1,179 @@
+{
+ "id": "ep2",
+ "title": "Épisode 2 – La France, championne de l'électricité : faits surprenants et prix dans le monde",
+ "sample_rate": 24000,
+ "total_s": 233.3,
+ "turns": [
+  {
+   "i": 0,
+   "speaker": "Aiden",
+   "voice": "aiden",
+   "text": "Bonjour et bienvenue dans « Sous tension ». Aujourd'hui, nous partons en France, avec mes deux collègues, Eric et Serena.",
+   "start": 0.0,
+   "duration": 8.72,
+   "gen_s": 0.0
+  },
+  {
+   "i": 1,
+   "speaker": "Eric",
+   "voice": "eric",
+   "text": "Bonjour Aiden, bonjour Serena. La France a une particularité : elle produit environ soixante-dix pour cent de son électricité grâce au nucléaire. C'est l'une des parts les plus élevées du monde.",
+   "start": 9.17,
+   "duration": 13.76,
+   "gen_s": 0.0
+  },
+  {
+   "i": 2,
+   "speaker": "Serena",
+   "voice": "serena",
+   "text": "Tout a commencé dans les années soixante-dix, après le choc pétrolier. Le gouvernement a décidé de construire massivement des centrales, pour ne plus dépendre du pétrole importé. Résultat : le pays compte aujourd'hui cinquante-sept réacteurs.",
+   "start": 23.38,
+   "duration": 14.08,
+   "gen_s": 0.0
+  },
+  {
+   "i": 3,
+   "speaker": "Aiden",
+   "voice": "aiden",
+   "text": "Parlons de faits un peu fous. Premier exemple : en hiver, la consommation française est extrêmement sensible à la météo. Quand la température baisse d'un seul degré, la demande augmente d'environ deux mille cinq cents mégawatts.",
+   "start": 37.91,
+   "duration": 12.56,
+   "gen_s": 0.0
+  },
+  {
+   "i": 4,
+   "speaker": "Eric",
+   "voice": "eric",
+   "text": "C'est parce que beaucoup de Français se chauffent à l'électricité. Pour gérer ces pics, le réseau a même inventé un système d'alerte, « Ecowatt », qui fonctionne un peu comme une météo de l'électricité.",
+   "start": 50.92,
+   "duration": 13.52,
+   "gen_s": 0.0
+  },
+  {
+   "i": 5,
+   "speaker": "Serena",
+   "voice": "serena",
+   "text": "Autre habitude très française : le chauffe-eau qui se déclenche la nuit. Pendant des décennies, un signal envoyé par le réseau déclenchait les chauffe-eau à l'heure creuse, quand le courant coûte moins cher.",
+   "start": 64.89,
+   "duration": 16.32,
+   "gen_s": 0.0
+  },
+  {
+   "i": 6,
+   "speaker": "Aiden",
+   "voice": "aiden",
+   "text": "Et il y a le tarif Tempo, avec ses jours rouges. Les jours de grand froid, l'électricité devient très chère pendant la journée, et les clients sont prévenus la veille. Certains ménages décalent alors leur lessive ou leur cuisine.",
+   "start": 81.66,
+   "duration": 15.2,
+   "gen_s": 0.0
+  },
+  {
+   "i": 7,
+   "speaker": "Eric",
+   "voice": "eric",
+   "text": "Dernier exemple de fait curieux : l'usine marémotrice de la Rance, en Bretagne. Elle utilise la force des marées, elle fonctionne depuis mille neuf cent soixante-six, et elle reste l'une des plus grandes du monde.",
+   "start": 97.31,
+   "duration": 13.76,
+   "gen_s": 0.0
+  },
+  {
+   "i": 8,
+   "speaker": "Serena",
+   "voice": "serena",
+   "text": "Sans oublier le chantier de Flamanville. Ce réacteur devait être prêt en deux mille douze pour environ trois milliards d'euros. Il a finalement été raccordé au réseau en décembre deux mille vingt-quatre, et le coût a dépassé treize milliards.",
+   "start": 111.52,
+   "duration": 15.92,
+   "gen_s": 0.0
+  },
+  {
+   "i": 9,
+   "speaker": "Aiden",
+   "voice": "aiden",
+   "text": "Il y a aussi un épisode marquant : l'hiver deux mille vingt-deux. À cause de problèmes de corrosion, près de la moitié des réacteurs étaient à l'arrêt, et la France, d'ordinaire exportatrice, a dû importer de l'électricité.",
+   "start": 127.89,
+   "duration": 15.04,
+   "gen_s": 0.0
+  },
+  {
+   "i": 10,
+   "speaker": "Eric",
+   "voice": "eric",
+   "text": "Depuis, la situation s'est redressée. En deux mille vingt-quatre, la France a même battu un record d'exportations, avec près de quatre-vingt-dix térawattheures vendus à ses voisins.",
+   "start": 143.38,
+   "duration": 10.4,
+   "gen_s": 0.0
+  },
+  {
+   "i": 11,
+   "speaker": "Serena",
+   "voice": "serena",
+   "text": "Et les prix, justement ? En France, un ménage paie environ vingt-cinq centimes d'euro le kilowattheure, un tarif en partie encadré par l'État. C'est nettement moins qu'en Allemagne, où l'on dépasse souvent trente-cinq centimes.",
+   "start": 154.23,
+   "duration": 14.8,
+   "gen_s": 0.0
+  },
+  {
+   "i": 12,
+   "speaker": "Aiden",
+   "voice": "aiden",
+   "text": "Aux États-Unis, le prix tourne autour de seize ou dix-sept cents le kilowattheure, soit un peu moins de quinze centimes d'euro. En Chine ou en Inde, il est encore plus bas, souvent inférieur à dix centimes.",
+   "start": 169.48,
+   "duration": 12.72,
+   "gen_s": 0.0
+  },
+  {
+   "i": 13,
+   "speaker": "Eric",
+   "voice": "eric",
+   "text": "Mais les records de prix bas se trouvent ailleurs. Dans certains pays producteurs de pétrole ou de gaz, comme l'Iran ou la Libye, l'électricité est subventionnée au point de coûter presque rien, un ou deux centimes.",
+   "start": 182.65,
+   "duration": 14.8,
+   "gen_s": 0.0
+  },
+  {
+   "i": 14,
+   "speaker": "Serena",
+   "voice": "serena",
+   "text": "À l'inverse, les îles et les pays très dépendants des importations paient cher. Et les écarts sont énormes : le même kilowattheure peut coûter jusqu'à trente fois plus cher d'un pays à l'autre.",
+   "start": 197.9,
+   "duration": 10.48,
+   "gen_s": 0.0
+  },
+  {
+   "i": 15,
+   "speaker": "Aiden",
+   "voice": "aiden",
+   "text": "Ce qu'il faut retenir : le prix de l'électricité dépend du mode de production, des taxes, des subventions, et des choix politiques de chaque pays. Ce n'est jamais uniquement une question technique.",
+   "start": 208.83,
+   "duration": 11.28,
+   "gen_s": 0.0
+  },
+  {
+   "i": 16,
+   "speaker": "Eric",
+   "voice": "eric",
+   "text": "Dans notre dernier épisode, nous irons en Chine et à Dubaï, pour découvrir des projets vraiment gigantesques.",
+   "start": 220.56,
+   "duration": 8.4,
+   "gen_s": 0.0
+  },
+  {
+   "i": 17,
+   "speaker": "Serena",
+   "voice": "serena",
+   "text": "Merci de nous avoir écoutés, et à bientôt !",
+   "start": 229.41,
+   "duration": 2.4,
+   "gen_s": 5.7
+  },
+  {
+   "i": 18,
+   "speaker": "Aiden",
+   "voice": "aiden",
+   "text": "Au revoir !",
+   "start": 232.26,
+   "duration": 0.64,
+   "gen_s": 0.0
+  }
+ ]
+}
